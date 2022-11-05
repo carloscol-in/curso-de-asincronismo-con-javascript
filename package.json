@@ -2,6 +2,9 @@
   "name": "curso-de-asincronismo-con-javascript",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/challenge.js"
+  },
   "author": "Carlos C <contact@carloscolin.me>",
   "license": "MIT",
   "dependencies": {
