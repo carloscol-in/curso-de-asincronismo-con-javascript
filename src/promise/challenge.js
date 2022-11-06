@@ -9,8 +9,7 @@ async function fetchData(urlApi) {
 
 fetchData(`${API}/products`)
     .then(products => {
-        console.log(products[0])
-        return fetchData(`${API}/products/${products[13].id}`)
+        return fetchData(`${API}/products/${216}`)
     })
     .then(product => {
         console.log(product)
