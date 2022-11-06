@@ -2,8 +2,10 @@
   "name": "curso-de-asincronismo-con-javascript",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "callback": "node src/callback/challenge.js"
+    "callback": "node src/callback/challenge.js",
+    "promise": "node src/promise/challenge.js"
   },
   "author": "Carlos C <contact@carloscolin.me>",
   "license": "MIT",
